@@ -1,0 +1,71 @@
+/* Container and Grid Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* User Box */
+  .user-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .user-box span {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: green;
+  }
+  
+  /* Ping Button */
+  .ping-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .ping-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Ping All Button */
+  .ping-all-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .ping-all-button:hover {
+    background-color: darkred;
+  }
+  
