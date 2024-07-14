@@ -12,7 +12,7 @@ export default function Home() {
   const wsRef = useRef(null);
 
   useEffect(() => {
-    const socket = new WebSocket('ws://ping-backend-fabq.onrender.com');
+    const socket = new WebSocket('wss://ping-backend-fabq.onrender.com');
     wsRef.current = socket;
 
     socket.onopen = () => socket.send(JSON.stringify({ type: 'initialize' }));
