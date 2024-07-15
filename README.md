@@ -58,4 +58,4 @@ Contributions to improve the application are welcome. Please follow these steps:
 ## Contact
 Ritik - kartik291190@gmail.com
 
-Project Link: [URL to your project repository]
+Project Link: https://frontend-ceoe.vercel.app/
